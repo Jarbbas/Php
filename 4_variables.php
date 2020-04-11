@@ -13,7 +13,7 @@
     $Variavel = 'Rodrigues';
     echo "$var, $Var";      // exibe "Bob, Joe" porque as variaveis são case-sensitive
 
-    $4site = 'not yet';     // ERRO; variáveis não podem começar com números
+    //$4site = 'not yet';  ERRO; variáveis não podem começar com números
     $_4site = 'not yet';    // válido; começa com um sublinhado
     $täyte = 'mansikka';    // válido; 'ä' é um caracter ASCII (extendido) 228
     
