@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math Functions</title>
-</head>
-<body>
-
-    <?php 
+<?php 
             
 /* link from PHP website for Math Functions 
     https://www.php.net/manual/en/ref.math.php
+    
+    O PHP tem uma biblioteca completa de funções não sejas nabo e explora, antes de perder tempo
+    com algoritmos e contas desnecessários
 */
 
         echo pow(2,7); //Exponential expression
@@ -34,7 +28,4 @@
         echo "<br>";
 
         echo round(4.5); //Round fractions down
-    ?>
-
-</body>
-</html>
+ 
