@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+<!-- 
+Os forms ou formulários, são a forma que temos de capturar
+dados de inputs de HTML para que o PHP possa processar.
+Neste caso depois do botão submit ser cliclado a informação que é 
+capturada nos inputs é enviada através da variável POST para a página
+Form_validation.php para ser processada
+-->
+
+    <form action="23_form_validation.php" method="post">
+        <input type="text" name="userName" placeholder="Enter User Name">
+        <input type="password" name="passWord" placeholder="Enter Password">
+        <br>
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
